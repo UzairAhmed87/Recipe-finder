@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+       background-image: linear-gradient(to right bottom, #fbdb89, #f48982)
+       
+}
+
+
+
+.image{
+    width: 70px;
+    border-radius: 50%;
+  }
+
+
+.recipe {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    gap: 15px;
+    width: 40%;
+}
+
+
+.recipe:last-child {
+    border-bottom: none;
+}
+
+.recipe h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #444;
+}
+
+
+
