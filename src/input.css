@@ -18,6 +18,7 @@ body {
 .image{
     width: 70px;
     border-radius: 50%;
+    
   }
 
 
@@ -25,8 +26,9 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
     display: flex;
+    cursor: pointer;
     gap: 15px;
-    width: 40%;
+    width: 100%;
 }
 
 
